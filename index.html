@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		body {
+		  background-image: url('stars.jpg');
+		  background-repeat: repeat;
+		}
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Piplee Unlimited Ltd. Privacy Policy</title>
+		<style type="text/css" media="screen">
+		 * {
+		   margin: 0; 
+		   padding: 0;
+		 }
+
+		.div {
+		  width: 100px;
+		  height: 100px;
+		  position: relative;
+		}
+		.img-rectangular img{
+			/*width: 200px;
+			height: 200px;*/
+			position:absolute;
+
+			top:0;
+			left:0;
+			right:0;
+			bottom:0;
+			margin:auto;
+			animation-name: example;
+			animation-duration: 4s;
+		}
+		.img-rectangular:hover img {
+		  transform: scale(2);
+		}
+		
+		@keyframes example {
+		  0%   { transform: scale(0); left:0px; top:0px;}
+		  25%  { transform: scale(1.0); left:200px; top:0px;}
+		  50%  { transform: scale(1.3); left:0px; top:0px;}
+		  75%  { transform: scale(0.9); left:0px; top:200px;}
+		  100% { transform: scale(1.0); left:0px; top:0px;}
+		}
+		
+		</style>
+    <body >
+		<div class="img-rectangular">
+			<img src="piplee.png" alt="" >
+		</div>
+	</body>
+</html>
